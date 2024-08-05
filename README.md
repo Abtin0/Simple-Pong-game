@@ -8,35 +8,22 @@ Welcome to the Pong game! This is a simple implementation of the classic arcade 
 - [Usage](#usage)
 - [Features](#features)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
 To run the Pong game, follow these steps:
 
-1. Clone the repository:
-git clone https://github.com/your-username/pong.git
+1. Simply clone the repository:
+git clone https://github.com/your-username/pong.git](https://github.com/Abtin0/Simple-Pong-game.git
 
-Copy
-
-2. Navigate to the project directory:
-cd pong
-
-Copy
-
-3. Install the required dependencies:
-pip install -r requirements.txt
-
-Copy
 
 ## Usage
 
 To start the Pong game, run the following command:
 python main.py
 
-Copy
 
-Use the arrow keys or "w" and "s" keys to control the paddles. The goal is to hit the ball with your paddle and prevent it from crossing the boundaries.
+Use the arrow keys or "w" and "s" keys for player 1, and the arrow keys to control the paddles for player 2. The goal is to hit the ball with your paddle and prevent it from crossing the boundaries.
 
 ## Features
 
@@ -50,6 +37,3 @@ Use the arrow keys or "w" and "s" keys to control the paddles. The goal is to hi
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
