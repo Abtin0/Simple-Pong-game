@@ -14,7 +14,7 @@ Welcome to the Pong game! This is a simple implementation of the classic arcade 
 To run the Pong game, follow these steps:
 
 1. Simply clone the repository:
-git clone https://github.com/your-username/pong.git](https://github.com/Abtin0/Simple-Pong-game.git
+git clone https://github.com/Abtin0/Simple-Pong-game.git
 
 
 ## Usage
