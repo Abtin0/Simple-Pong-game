@@ -22,13 +22,12 @@ screen.onkeypress(fun=r_paddle.down, key="Down")
 screen.onkeypress(fun=l_paddle.up, key="w")
 screen.onkeypress(fun=l_paddle.down, key="s")
 
-game_is_on = True
-while game_is_on:
+run = True
+while run:
     time.sleep(ball.move_speed)
     ball.move()
     screen.update()
-
-    if ball.ycor() > 280 or ball.ycor() < -280:
+    if ball.ycor() > 290 or ball.ycor() < -290:
         ball.bounce_wall()
 
     if ball.distance(r_paddle) < 55 and ball.xcor() > 320 and ball.x_move > 0:
@@ -38,13 +37,17 @@ while game_is_on:
         ball.bounce_paddle()
 
     if ball.xcor() > 380:
-        ball.reset_position()
+        ball.home()
+        ball.move_speed = 0.04
         scoreboard.l_score += 1
+        ball.x_move *= -1
         scoreboard.update()
 
     if ball.xcor() < -380:
-        ball.reset_position()
+        ball.home()
+        ball.move_speed = 0.04
         scoreboard.r_score += 1
+        ball.x_move *= -1
         scoreboard.update()
 
 
